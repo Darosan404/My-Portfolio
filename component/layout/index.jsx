@@ -13,7 +13,7 @@ export default function Layout({ children, title = 'Title', description = 'Defau
         <meta name="description" content={description} />
       </Head>
       <Sidebar />
-      <Box as="main" position="absolute" left={[0, null, 48]} w={['100%', null, '85.7%']} py={16} px={4}>
+      <Box as="main" position="absolute" left={[0, null, 48]} w={['100%', null, '85.7%']} py={16} px={4} overflowX="hidden">
         {children}
       </Box>
     </>

@@ -1,16 +1,16 @@
 const experiences = [
   {
     id: 1,
-    company: 'Palacios de Marbella',
-    years: '2005-2008',
-    description: 'Yo participe en un proyecto',
+    company: 'Participations in CTF (Cyber Secutiy Flag) Events',
+    years: '2018 – Present',
+    description: 'I was with the team from the Polytechnic University of Puerto Rico (Cyber ​​Castors) in these competitions. Today I continue to participate with different teams or individually. In the area that I excel in these competences is in forensics, cryptography and Web Exploitation',
 
   },
   {
     id: 2,
-    company: 'Google Inc',
-    years: '2015-2021',
-    description: 'GOOGLE INN ES UNA COMPANIA DE TELEVISION AJAJAAJJA',
+    company: 'Web Application Creation',
+    years: '2019 – Present',
+    description: 'I have worked on creating web applications from scratch, for organizations. I have done frontend and backend work, as well as taking the applications to production (Full Stack developer).',
 
   },
 ];
