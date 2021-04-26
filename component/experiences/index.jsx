@@ -19,7 +19,7 @@ export default function Experiences({ data }) {
                 <ListIcon color="red.500">
                   <i className="fas fa-briefcase" />
                 </ListIcon>
-                <Text as="h3" fontSize="xl">{experience.company}</Text>
+                <Text as="h3" fontSize="xl" fontWeight="500">{experience.company}</Text>
               </Flex>
 
               <Text as="h4" fontSize="lg">{experience.years}</Text>

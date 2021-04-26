@@ -1,0 +1,8 @@
+.markdown ul,
+.markdown ol {
+  margin-left: 50px;
+}
+
+.markdown p{
+  font-size: 1.1rem;
+}

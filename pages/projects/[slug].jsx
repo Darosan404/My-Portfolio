@@ -7,6 +7,7 @@ import { getAllProjects, getProjectBySlug } from '../../service/api';
 import Layout from '../../component/layout';
 import Section from '../../component/section';
 import Load from '../../component/spinner';
+import Markdown from '../../component/markdown';
 
 export default function projects({ project }) {
   const router = useRouter();
@@ -26,10 +27,7 @@ export default function projects({ project }) {
         <Image src={project.coverImage} alt="Imagen del Portafolio" objectFit="cover" w={['100%', null, '50%']} h="auto" mx="auto" />
         <Text as="h1" mt={4} fontSize="4xl" textAlign="center">{project.title}</Text>
         <Section mt="0">
-          <div
-            dangerouslySetInnerHTML={{ __html: project.content }}
-          />
-
+          <Markdown content={project.content} />
         </Section>
       </Layout>
     </>
