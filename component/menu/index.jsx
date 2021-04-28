@@ -75,11 +75,8 @@ export default function Menu({ view = true }) {
           justifyContent="space-around"
           borderTop="1px solid #E53E3E"
         >
-          <a href="https://github.com/" target="_blank" rel="noreferrer">
+          <a href="https://github.com/Darosan404" target="_blank" rel="noreferrer">
             <i className="fab fa-github fa-2x" />
-          </a>
-          <a href="https://github.com/" target="_blank" rel="noreferrer">
-            <i className="fab fa-linkedin fa-2x" />
           </a>
         </HStack>
       </Box>

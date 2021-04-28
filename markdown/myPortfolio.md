@@ -13,5 +13,5 @@ This project consists of creating my first personal portfolio. For that I decide
 - Vanilla JavaScript
 
 It is a static application that you can easily update without compiling the application every time you update something. In the future I would like to add a nice backend so that I can modify the application from within the application and not have to go to the source code.  
-**Visit the app**: This APP  
-**My GitHub**: [Darosan404](https://www.github.com/Darosan404 "My Github")
+**Visit the app**: [This App](https://github.com/Darosan404/My-Portfolio "My Portfolio")  
+**My GitHub**: [Darosan404](https://github.com/Darosan404/ "My github")
