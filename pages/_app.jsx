@@ -1,11 +1,15 @@
 import '../styles/globals.css';
 import { ChakraProvider } from '@chakra-ui/react';
+import { config } from '@fortawesome/fontawesome-svg-core';
 import darkTheme from '../styles/darkTheme';
 
 import '@fortawesome/fontawesome-free/js/fontawesome';
 import '@fortawesome/fontawesome-free/js/solid';
 import '@fortawesome/fontawesome-free/js/regular';
 import '@fortawesome/fontawesome-free/js/brands';
+import '@fortawesome/fontawesome-svg-core/styles.css';
+// Import the CSS
+config.autoAddCss = false;
 
 function MyApp({ Component, pageProps }) {
   return (
