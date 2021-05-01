@@ -3,14 +3,12 @@ import { useEffect, useState } from 'react';
 import {
   Box, VStack, HStack, Center, Text, Switch, FormControl, FormLabel,
 } from '@chakra-ui/react';
-// import useTheme from '../../hook/useTheme';
 import { useColorMode } from '@chakra-ui/color-mode';
 import style from './style';
 
 export default function Menu({ view = true }) {
-  const [value, setValue] = useState(0);
+  const [value, setValue] = useState(-48);
   const { colorMode, toggleColorMode } = useColorMode();
-  // const [, themeToggler] = useTheme();
 
   useEffect(() => {
     if (view) {
